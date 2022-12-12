@@ -9,7 +9,7 @@ export const FeedbackBtn = styled.button`
   justify-content: center;
   align-items: center;
   font-family: Roboto, sans-serif;
-  font-size: 1.3rem;
+  font-size: 20px;
   font-weight: 600;
   height: 45px;
   cursor: pointer;

@@ -23,13 +23,6 @@ export class App extends Component {
   };
 
   handleLeaveFeedback = e => {
-    // if (e === 'good') {
-    //   this.setState({ good: this.state.good + 1 });
-    // } else if (e === 'neutral') {
-    //   this.setState({ neutral: this.state.neutral + 1 });
-    // } else if (e === 'bad') {
-    //   this.setState({ bad: this.state.bad + 1 });
-    // }
     this.setState({ [e]: this.state[e] + 1 });
   };
 
